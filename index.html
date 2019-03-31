@@ -11,7 +11,10 @@
     <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
 
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
+<!--    <link rel="stylesheet" href="fontawesome/css/brands.css">-->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/main.css">
 
     <meta name="theme-color" content="#fafafa">
@@ -23,6 +26,64 @@
     your browser</a> to improve your experience and security.</p>
 <![endif]-->
 
+<header>
+    <h1>
+        <code>&lt;</code>
+        <a href="mailto:felipsmartins@gmail.com">Felipe Martins</a>
+        <code>/&gt;</code>
+        <br>
+    </h1>
+    <h2>Python/PHP programer :) </h2>
+</header>
+<main>
+    <div class="avatar">
+        <img src="img/me2.jpg" alt="Avatar">
+    </div>
+    <div class="aboume">
+        <code><span class="keyword">function</span> about_me() <span class="curly-braces">{</span></code>
+        <p>Hi, you!</p>
+        <p>My name is Felipe Martins, Web Developer (backend) in Brazil.
+            I've been writing web application for many use cases for 5+ years. I'm skilled in
+            <a href="https://stackoverflow.com/search?q=user:1262820+[python]">Python</a> and
+            <a href="https://stackoverflow.com/search?q=user:1262820+[php]">PHP</a>
+            technologies and most what I have designed is written in those tools. I'm most interested in designing
+            application backend.
+            Also, I can design and write source-to-source compilers e DSLs (domain-specific language).
+        </p>
+        <p>I could write basic apps on Ruby, Java, TCL or C# but I'm not a specialist on that tools at all.</p>
+        <code><span class="curly-braces">}</span></code>
+    </div>
+</main>
+
+
+<footer>
+    <div class="footer-content">
+        <!--
+        <a href="https://stackoverflow.com/users/1262820/felipsmartins">
+            <img src="https://stackoverflow.com/users/flair/1262820.png?theme=Default" width="208" height="58"
+                 alt="profile for felipsmartins at Stack Overflow, Q&amp;A for professional and enthusiast programmers"
+                 title="profile for felipsmartins at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+        </a>-->
+
+        <ul class="social-links">
+            <li>
+                <a href="https://stackoverflow.com/users/1262820/felipsmartins">
+                    <i class="fab fa-stack-overflow"></i> Stack Overflow
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/felipsmartins">
+                    <i class="fab fa-github-alt"></i> Github
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/felipsmartins/">
+                    <i class="fab fa-linkedin"></i> LinedIn
+                </a>
+            </li>
+        </ul>
+    </div>
+</footer>
 
 
 <script src="js/vendor/modernizr-3.7.1.min.js"></script>
@@ -34,7 +95,11 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137264549-2"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
     gtag('js', new Date());
 
     gtag('config', 'UA-137264549-2');
